@@ -1,0 +1,201 @@
+.navbar {
+    background-color: #B3DDF2;
+}
+body {
+    display: flex;  /* setting "display: flex" allows its children (e.g. "main" below) to use the "flex" property */
+    flex-direction: column;
+    padding-top: 56px;  /* allow enough space for a fixed navbar (56px is the height of the navbar here) */
+    min-height: 100vh;  /* i.e minimum width is 100% of the "viewport height"... i.e the full screen height */
+    font-family: 'Montserrat', sans-serif;
+    flex-direction:column;
+    align-items:center; 
+}
+
+  
+.headerbox {
+    position: relative;
+    text-align: center;
+    font-size:8vw;
+    color:white;
+    font-weight:900;
+    background: url("max-bender-8FdEwlxP3oU-unsplash2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:20px;
+    
+}
+.test {
+  position: relative;
+  text-align: center;
+  opacity: 0;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:8vw;
+    color:white;
+    font-weight:900;
+    padding:10px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.centerednewsletter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:6vw;
+  color:white;
+  font-weight:900;
+  font-family: 'Sansita Swashed', cursive;
+}
+.sectiontwo {
+  background-color:white;
+  justify-content:center;
+  text-align:center;
+}
+
+.headertwo {
+  font-size:4vw;
+  font-weight:bolder;
+  color:#5b6266;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.imageholders {
+  justify-content:center;
+  margin-bottom:50px;
+  gap:20px;
+  cursor:pointer;
+}
+
+
+
+.box{
+  width:100%;
+  border: solid #B3DDF2;
+  border-radius:15px;
+  gap:20px;
+}
+
+.box:hover{
+  border:solid #1f2937;
+}
+
+.button {
+  background-color:#B3DDF2;
+  display:flex;
+  padding:10px;
+  color:white;
+  width:75%;
+  font-weight:bold;
+  border-radius:10px;
+  text-align:center;
+  justify-content: center;
+  align-items:center;
+  margin-top:5px;
+  cursor:pointer;
+}
+
+.sectionthree {
+  background-color:#B3DDF2;
+  padding-bottom:20px
+}
+
+.bestbigcity {
+  font-size:5vh;
+  text-align:center;
+  color:1f2937;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fiveyears {
+  font-size:4vh;
+  text-align:center;
+  color:#5b6266;
+  padding:5px;
+}
+
+
+.condenast {
+  font-size:2vh;
+  text-align:center;
+  padding:00px
+}
+
+.button {
+  background:white;
+  color:black;
+  width:40%;
+  text-align:center;
+  font-size:2vh;
+  margin-left: auto;
+  margin-right: auto;
+  border:5px solid #1f2937;
+}
+
+.imagetext {
+  font-size:3vh;
+}
+
+.sectionfive {
+  background-color: #1f2937;
+  color:#F9FAF8;
+  width:100%;
+  padding:20px 8px;
+  align-items:center;
+  justify-content:center;
+  display:flex;
+}
+
+
+.headerboxnewsletter {
+  position: relative;
+  text-align: center;
+  font-size:8vw;
+  color:white;
+  font-weight:900;
+  background: url("johnell-pannell-wL2RI63s7wY-unsplashrs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:20px;
+}
+
+
+.button:hover {
+  background-color: #5b6266;
+  color: white;
+}
+
+.formtext {
+  margin:10px
+}
+
+.newslettersectiontwo {
+  background-color:white;
+  justify-content:center;
+  text-align:center;
+  padding:0px 0px 20px 0px;
+}
+
+
+
+.newsletterheadertwo {
+    font-size:3vw;
+    font-weight:bolder;
+    color:#5b6266;
+    padding: 20px;
+    text-align: center;
+  }
+
+.boxone {
+  color:#5b6266;
+}
+
+.boxone:hover {
+  color:#1f2937;
+}
